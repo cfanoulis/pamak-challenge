@@ -7,8 +7,9 @@ const q = [{
 }];
 
 i.prompt(q).then(ans => {
-    for (let a of ans.input) {
+  if(isNaN(parseInt(ans.input))) throw "that aint an integer"
+    for (let a of ans) {
       console.log(ch.bgGreen(a));
     }
-    console.log(ch.bgWhite("Done"));
+    console.log(ch.bgBlue("Done"));
 });
