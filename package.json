@@ -1,0 +1,12 @@
+{
+  "name": "pamak-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:cfanoulis/pamak-challenge.git",
+  "author": "<charalampos.fanoulis@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "inquirer": "^6.2.0"
+  }
+}
